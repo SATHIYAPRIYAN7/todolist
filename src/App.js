@@ -6,6 +6,7 @@ import "./App.css"
 import PropCointainer from "./components/PropCointainer";
 import Navbar from "./components/Navbar";
 import QuoteCardList from "./components/QuoteCardList";
+import Educationplanner from "./Educationplanner.js";
 
 
 function App() {
@@ -14,10 +15,9 @@ function App() {
  
   
   return (
-    <div style={{maxWidth:"1000px",margin:"auto",minHeight:"100vh"}} >
+    <div style={{maxWidth:"1600px",margin:"auto",minHeight:"100vh"}} >
 
-    <Navbar /> 
-    <QuoteCardList />
+      <Educationplanner />
     </div>
   );
 }
