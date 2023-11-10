@@ -60,9 +60,9 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
             <h1 style={{marginLeft:"20px",fontSize:"24px",fontWeight:"bold",color:"white"}}>Bank of React</h1>
          </div>
 
-         <div style={{margin:"20px 20px", display:'flex',width:"100%",justifyContent:"space-between",alignItems:"center"}}>
+         <div style={{margin:"20px 20px", display:'flex',width:"100%",justifyContent:"center",alignItems:"center",flexWrap:"wrap"}}>
 
-          <div style={{width:"50%"}}>
+          <div style={{minWidth:"700px"}}>
 
           <div>
             <h1>Home Value</h1>
@@ -119,7 +119,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
          </div>
         
 
-         <div style={{width:"50%",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+         <div style={{width:"50%",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",marginTop:"50px"}}>
           
           <h1 style={{fontSize:"30px",fontWeight:"bold"}}>Monthly Payment: $ {loan*0.02}</h1>
          <PieChart width={400} height={400}>
