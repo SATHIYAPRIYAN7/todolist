@@ -9,15 +9,17 @@ import QuoteCardList from "./components/QuoteCardList";
 import Educationplanner from "./Educationplanner.js";
 import Bankofreact from "./components/Bankofreact.js";
 import PasswordGenerator from "./components/PasswordGenerator.js";
+import RestaurantCardList from "./components/RestaurantCardList.js";
 
 
 function App() {
   
   
   return (
-    <div style={{backgroundColor:"black",height:"100vh",display:"flex"}}>
+    <div >
    
-<PasswordGenerator />
+<Navbar/>
+<RestaurantCardList/>
   
   </div>
   )

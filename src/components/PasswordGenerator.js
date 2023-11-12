@@ -63,6 +63,7 @@ function PasswordGenerator() {
 
 <input type = "checkbox" style={{padding:"10px"}} 
         checked = {includeNumbers} style={{ paddingRight:"5px",marginRight:"10px"}}
+
         onChange = {
             () => setIncludeNumbers(!includeNumbers)
         }
@@ -90,7 +91,7 @@ function PasswordGenerator() {
 </div>
 
 
-< button style={{backgroundColor:"Blue",padding:"10px",borderRadius:"10px",marginLeft:"5px",marginTop:"20px",marginBottom:"20px", width:"490px", fontWeight:"bold",border:"1px solid white"}}
+< button style={{backgroundColor:"Blue,",padding:"10px",borderRadius:"10px",marginLeft:"5px",marginTop:"20px",marginBottom:"20px", width:"490px", fontWeight:"bold",border:"1px solid white"}}
         onClick = {
             generatePassword
         } >
