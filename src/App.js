@@ -10,6 +10,7 @@ import Educationplanner from "./Educationplanner.js";
 import Bankofreact from "./components/Bankofreact.js";
 import PasswordGenerator from "./components/PasswordGenerator.js";
 import RestaurantCardList from "./components/RestaurantCardList.js";
+import Progressbar from "./components/Progressbar.js";
 
 
 function App() {
@@ -18,8 +19,7 @@ function App() {
   return (
     <div >
    
-<Navbar/>
-<RestaurantCardList/>
+   <Progressbar />
   
   </div>
   )
