@@ -11,6 +11,8 @@ import Bankofreact from "./components/Bankofreact.js";
 import PasswordGenerator from "./components/PasswordGenerator.js";
 import RestaurantCardList from "./components/RestaurantCardList.js";
 import Progressbar from "./components/Progressbar.js";
+import Hotel from "./components/Hotel.js";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 
 
 function App() {
@@ -18,9 +20,18 @@ function App() {
   
   return (
     <div >
+
+      <BrowserRouter>
+            <Navbar/>
+       <Routes>
+           <Route path="/" element={<Hotel/>} />
+           <Route path="/quote" element={<QuoteCardList/>} />
+           <Route path="/restaurant" element={<RestaurantCardList/>} />
+
+       </Routes>
    
-   <Progressbar />
-  
+   
+  </BrowserRouter>
   </div>
   )
 }
