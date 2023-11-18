@@ -16,6 +16,7 @@ import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import Banner from "./workout/Banner.js";
 import Exercise from "./workout/Excercise.js";
 import ExerciseCard from "./workout/ExerciseCard.js";
+import App1 from "./budgetplanner/App1.js";
 
 
 
@@ -23,10 +24,8 @@ function App() {
   
   
   return (
-    <div style={{backgroundColor:"black"}} >
-    <Banner/>
-    <Exercise/> 
-     
+    <div >
+     <App1/>
   </div>
   )
 }
