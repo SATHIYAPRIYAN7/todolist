@@ -17,6 +17,7 @@ import Banner from "./workout/Banner.js";
 import Exercise from "./workout/Excercise.js";
 import ExerciseCard from "./workout/ExerciseCard.js";
 import App1 from "./budgetplanner/App1.js";
+import TextUtil from "./textutils/TextUtil.js";
 
 
 
@@ -25,7 +26,7 @@ function App() {
   
   return (
     <div >
-     <App1/>
+    <TextUtil/>
   </div>
   )
 }
