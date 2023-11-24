@@ -18,6 +18,7 @@ import Exercise from "./workout/Excercise.js";
 import ExerciseCard from "./workout/ExerciseCard.js";
 import App1 from "./budgetplanner/App1.js";
 import TextUtil from "./textutils/TextUtil.js";
+import TodoApp from "./todolist/TodoApp.js";
 
 
 
@@ -26,7 +27,8 @@ function App() {
   
   return (
     <div >
-    <TextUtil/>
+   {/* // <TextUtil/> */}
+   <TodoApp/>
   </div>
   )
 }
